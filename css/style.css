@@ -7,3 +7,12 @@ body {
   main {
     flex: 1 0 auto;
   }
+
+  .social-footer a{
+   padding: 1em;
+  }
+  @media(min-width: 768px) {
+    .social-footer i{
+      font-size: 2rem;
+     }
+  }
