@@ -7,3 +7,21 @@ body {
   main {
     flex: 1 0 auto;
   }
+
+  .social-footer a{
+   padding: 1em;
+   margin-bottom: 0.5em;
+  }
+ 
+ 
+  @media(min-width: 768px) {
+    .social-footer i{
+      font-size: 2rem;
+     }
+     .social-footer a:hover{
+      background-color: #424242;
+     }
+     .social-footer a:hover i{
+      font-size: 2.5rem;
+     }
+  }
