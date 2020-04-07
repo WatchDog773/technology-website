@@ -11,6 +11,11 @@ body {
   .social-footer a{
    padding: 1em;
   }
+  .social-footer a:hover{
+    background-color: #424242;
+    margin-bottom: 1em;
+   }
+ 
   @media(min-width: 768px) {
     .social-footer i{
       font-size: 2rem;
