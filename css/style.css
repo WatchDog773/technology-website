@@ -25,3 +25,7 @@ body {
       font-size: 2.5rem;
      }
   }
+
+  .parallax-container i {
+    font-size: 1em;
+  }
