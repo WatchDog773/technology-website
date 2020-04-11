@@ -33,3 +33,17 @@ body {
   p {
     text-align: justify;
   }
+
+  .creditos-img h6{
+    font-size: 0.6em;
+    margin: 0em;
+    padding: 0em;
+  }
+
+  .sugerimos .card {
+    height: 30em;
+  }
+
+  .sugerimos img {
+    height: 10em;
+  }
