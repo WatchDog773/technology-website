@@ -1,49 +1,48 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
 
-  .social-footer a{
-   padding: 1em;
-   margin-bottom: 0.5em;
-  }
- 
- 
-  @media(min-width: 768px) {
-    .social-footer i{
-      font-size: 2rem;
-     }
-     .social-footer a:hover{
-      background-color: #424242;
-     }
-     .social-footer a:hover i{
-      font-size: 2.5rem;
-     }
-  }
+.social-footer a {
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
 
-  .parallax-container i {
-    font-size: 1em;
+@media (min-width: 768px) {
+  .social-footer i {
+    font-size: 2rem;
   }
+  .social-footer a:hover {
+    background-color: #424242;
+  }
+  .social-footer a:hover i {
+    font-size: 2.5rem;
+  }
+}
 
-  p {
-    text-align: justify;
-  }
+.parallax-container i {
+  font-size: 1em;
+}
 
-  .creditos-img h6{
-    font-size: 0.6em;
-    margin: 0em;
-    padding: 0em;
-  }
+p {
+  text-align: justify;
+}
 
-  .sugerimos .card {
-    height: 26em;
-  }
+.creditos-img h6 {
+  font-size: 0.6em;
+  margin: 0em;
+  padding: 0em;
+}
 
-  .sugerimos img {
-    height: 10em;
-  }
+.sugerimos .card {
+  height: 26em;
+}
+
+.sugerimos img {
+  height: 10em;
+}
