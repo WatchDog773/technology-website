@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SysTech | Android</title>
+
+    <!-- Iconos de Materia Design -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Iconos de FontAwesome solo para las redes sociales -->
+    <script
+      src="https://kit.fontawesome.com/6f8515ba1a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Llamar al cdn css de materialize -->
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Llamar al css local styles -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- Menu de navegacion -->
+
+    <div class="navbar-fixed">
+      <nav class="blue darken-2">
+        <div class="nav-wrapper container">
+          <a href="../index.html" class="brand-logo">SysTech</a>
+          <a href="#" data-target="menu-side" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="../index.html"
+                ><i class="material-icons left">home</i>Inicio</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-trigger" href="#" data-target="Movil1"
+                >Móviles<i class="material-icons right">arrow_drop_down</i></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-trigger" href="#" data-target="Tecnologia1"
+                >Tecnologías<i class="material-icons right"
+                  >arrow_drop_down</i
+                ></a
+              >
+            </li>
+            <li>
+              <a class="dropdown-trigger" href="#" data-target="SO1"
+                >Sistemas operativos<i class="material-icons right"
+                  >arrow_drop_down</i
+                ></a
+              >
+            </li>
+            <li><a href="#">Ordenadores</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="polemicasTecnologicas.html">Polémicas</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="menu-side">
+      <li>
+        <a href="../index.html"
+          ><i class="material-icons left">home</i>Inicio</a
+        >
+      </li>
+      <li>
+        <a class="dropdown-trigger" href="#" data-target="Movil2"
+          >Móviles<i class="material-icons right">arrow_drop_down</i></a
+        >
+      </li>
+      <li>
+        <a class="dropdown-trigger" href="#" data-target="Tecnologia2"
+          >Tecnologías<i class="material-icons right">arrow_drop_down</i></a
+        >
+      </li>
+      <li>
+        <a class="dropdown-trigger" href="#" data-target="SO2"
+          >Sistemas operativos<i class="material-icons right"
+            >arrow_drop_down</i
+          ></a
+        >
+      </li>
+      <li><a href="#">Ordenadores</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="polemicasTecnologicas.html">Polémicas</a></li>
+    </ul>
+
+    <!-- Movil -->
+
+    <ul id="Movil1" class="dropdown-content">
+      <li><a href="newmovil.html" class="blue-text">Lo nuevo en móviles</a></li>
+      <li><a href="android.html" class="blue-text">Android</a></li>
+      <li><a href="ios.html" class="blue-text">IOS</a></li>
+    </ul>
+
+    <ul id="Movil2" class="dropdown-content blue darken-2">
+      <li>
+        <a href="newmovil.html" class="white-text">Lo nuevo en móviles</a>
+      </li>
+      <li><a href="android.html" class="white-text">Android</a></li>
+      <li><a href="ios.html" class="white-text">IOS</a></li>
+    </ul>
+    <!-- Fin Movil -->
+    <!-- Tecnologías -->
+
+    <ul id="Tecnologia1" class="dropdown-content">
+      <li>
+        <a href="tecnologiadelfuturo.html" class="blue-text"
+          >Tecnologías del Futuro</a
+        >
+      </li>
+      <li>
+        <a href="tecnologiaenlamedicina.html" class="blue-text"
+          >Tecnología en la medicina</a
+        >
+      </li>
+      <li><a href="#" class="blue-text">Tecnología 5G</a></li>
+      <li><a href="#" class="blue-text">Tecnología Blockchain</a></li>
+      <li><a href="#" class="blue-text">Realidad virtual</a></li>
+      <li><a href="InteligenciaArtificial.html" class="blue-text">Inteligencia artificial</a></li>
+      <li><a href="#" class="blue-text">Robotica</a></li>
+    </ul>
+    <ul id="Tecnologia2" class="dropdown-content blue darken-2">
+      <li>
+        <a href="tecnologiadelfuturo.html" class="white-text"
+          >Tecnologías del Futuro</a
+        >
+      </li>
+      <li>
+        <a href="tecnologiaenlamedicina.html" class="white-text"
+          >Tecnología en la medicina</a
+        >
+      </li>
+      <li><a href="#" class="white-text">Tecnología 5G</a></li>
+      <li><a href="#" class="white-text">Tecnología Blockchain</a></li>
+      <li><a href="#" class="white-text">Realidad virtual</a></li>
+      <li><a href="InteligenciaArtificial.html" class="white-text">Inteligencia artificial</a></li>
+      <li><a href="#" class="white-text">Robotica</a></li>
+    </ul>
+    <!-- Fin Tecnologías-->
+    <!-- Tecnologías -->
+
+    <ul id="SO1" class="dropdown-content">
+      <li><a href="windows.html" class="blue-text">Windows</a></li>
+      <li><a href="#" class="blue-text">Linux</a></li>
+    </ul>
+    <ul id="SO2" class="dropdown-content blue darken-2">
+      <li><a href="windows.html" class="white-text">Windows</a></li>
+      <li><a href="#" class="white-text">Linux</a></li>
+    </ul>
+    <!-- Fin Tecnologías-->
+    <!-- Fin de menu de navegacion -->
+    <!-- Inicio de contenido -->
+
+    <!-- Parallax ios con contenido debajo -->
+    <div class="parallax-container">
+        <!-- Centrar el texto en el centro del parallax  vertical y horizontal-->
+        <!-- https://stackoverflow.com/questions/31854696/horizontal-and-vertical-alignment-in-materialize-framework -->
+  
+        <!-- Encabezado del parallax Gaming-->
+        <div
+          class="valign-wrapper"
+          style="width: 100%; height: 100%; position: absolute;"
+        >
+          <div class="valign" style="width: 100%;">
+            <div class="container">
+              <h1 class="header center-align white-text">¡Android está aqui!</h1>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Imagen para el parallax -->
+        <div class="parallax">
+          <img src="../img/parallax/android.jpg" alt="Imagen de Juguetes Android" />
+          <h6>
+
+          </h6>
+        </div>
+      </div>
+          <div class="section">
+        <div class="row container">
+            <h2 class="center-align">Lo nuevo de Android 10 ha Llegado</h2>
+          <p class="grey-text text-darken-3 lighten-3">
+            La primera beta de Android Q ha llegado, permitiéndonos 
+            saber algunas de las principales novedades que Google prepara para la 
+            próxima versión de su sistema operativo móvil. Por eso, hoy vamos a 
+            entrar en profundidad con este primer lanzamiento para que puedas saber
+             todo lo que debes saber sobre esta versión.
+          </p>
+        </div>
+      </div>
+      <!-- Fin parallax con contenido de android-->
+
+      <!-- Seccion de android Q -->
+      <div class="section">
+          <div class="container">
+            <div class="card" style="padding: 1em 2em;">
+                <div class="container">
+                    <img style="max-width: 100%;" src="../img/android/android-q.jpg" alt="Imagen de android 10">
+                </div>
+                <p>
+                    Empezaremos explicándote qué es exactamente Android 
+                    Q y qué significa que sea una versión beta. Luego te 
+                    diremos las previsiones de Google para sus fechas de lanzamiento, 
+                    y seguiremos enumerando todas las novedades que contiene, y terminaremos 
+                    diciéndote cómo puedes descargarlo. Algunas de ellas quizá no lleguen a su 
+                    versión final, pero nos ayudan a hacernos una idea de cuál es 
+                    el enfoque que se le quiere dar. Una pista: tiene que ver con la privacidad.
+                  </p>
+                  <p>
+                    Android Q es la próxima versión del sistema operativo de Google después del 
+                    lanzamiento el año pasado de Android 9.0 Pie, por lo que también podríamos referirnos 
+                    a él como Android 10.0. Como cada nueva versión, vamos a encontrarnos varias mejoras para 
+                    el sistema operativo, algunas nuevas y otras con las que interioriza mejoras que otros 
+                    fabricantes han ido implementando mediante sus respectivas capas de personalización. Aunque todavía no se sabe de su fecha de lanzamiento de la versión oficial.
+                  </p>
+                  <h6 style="font-size: 0.5em;">
+                    Contenido obtenido de
+                    <a target="_blank" href="
+                    https://www.xataka.com/basics/todo-android-q-que-cuando-llega-cuales-sus-novedades">Xataka</a>
+                  </h6>
+              </div>
+
+              <div class="card" style="padding: 1em 2em;">
+                <h4>Ahora con caracteristicas nuevas</h3>
+                <div class="row center-align">
+                    <div class="col s12 m4">
+                        <div class="card" style="padding: 0.4em 0.4em;">
+                            <img style="max-width: 100%;" src="../img/android/modo-oscuro.jpeg" alt="Imagen de modo oscuro en android">
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0;">Imgagen obtenida de
+                                <a target="_blank" href="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2019/09/android-10_0.jpeg?itok=0I7Eddsj">ComputerHoy</a>
+                            </h6>
+                            <h6>Hora con Modo oscuro Nativo</h6>
+                            <p>
+                                De esta forma, tanto Android como las aplicaciones 
+                                que lo soporten adoptan ese tema oscuro que permite 
+                                descansar la vista cuando hay poca luz, pero también 
+                                arañar algo de batería en móviles con pantallas OLED. 
+    
+                                Eso sí, hay que aclarar que el modo oscuro de Android sí ahorra algo de batería, 
+                                pero el modo oscuro de, por ejemplo, Twitter… no. Y es que, la 
+                                app no se tiñe de negro, sino de un azul oscuro, por lo que el 
+                                resultado es prácticamente el mismo que si estuviera pintada de blanco.
+                            </p>
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0;">
+                                Contenido obtenido de
+                                <a target="_blank" href="https://computerhoy.com/listas/tecnologia/novedades-android-10-te-interesa-conocer-488415">ComputerHoy</a>
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card" style="padding: 0.4em 0.4em;">
+                            <img style="max-width: 100%;" src="../img/android/gestos.jpeg" alt="Imagen de un usuario en android haciendo gestos">
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0;">Imagen obtenida de
+                            <a target="_blank" href="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2019/09/android-10_1.jpeg?itok=DcsWL-_B">ComputerHoy</a></h6>
+                            <h6>Nuevos Gestos</h6>
+                            <p>
+                                Y otra de las mejoras de Android 10 es la navegación por gestos. 
+                                Apple tomó la delantera en este sentido con el iPhone X, y Android
+                                 no supo reaccionar con su sistema operativo. 
+                            </p>
+                            <p>
+                                Otras compañías han añadido diferentes opciones de navegación por gestos, y ahora es algo que 
+                                llega de forma nativa a Android. Y funciona realmente bien, todo hay que decirlo. Es un sistema intuitivo, 
+                                con solo unas pocas combinaciones y un rendimiento de lo más fluido.
+                            </p>
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0;">
+                                Contenido obtenido de
+                                <a target="_blank" href="https://computerhoy.com/listas/tecnologia/novedades-android-10-te-interesa-conocer-488415">ComputerHoy</a>
+                            </h6>
+                        </div>
+
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card" style="padding: 0.4em 0.4em;">
+                            <img style="max-width: 100%;" src="../img/android/temas.jpeg" alt="Imagen de nuevos temas android">
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0;">Imagen obtenida de
+                            <a target="_blank" href="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2019/09/android-10_2.jpeg?itok=_OOypL9Y">ComputerHoy</a></h6>
+                            <h6>Nuevas personalizaciones</h6>
+                            <p>
+                                Si bien esta nueva función no resultará importante para todos, sí que gustará a muchos usuarios. Y es que ahora, 
+                                aparte de los fondos de pantalla, tenemos la posibilidad de teñir otros elementos de Android con diferentes temas.
+                            </p>
+                            <p>
+                                Pueden ser colores planos o colores gradiantes, metalizados, etc, algo que también habíamos 
+                                visto en algunas capas de personalización y que ya tenemos en Android 10.
+                            </p>
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0;">Contenido obtenido de
+                                <a target="_blank" href="https://computerhoy.com/listas/tecnologia/novedades-android-10-te-interesa-conocer-488415">ComputerHoy</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+          </div>
+      </div>
+      <!-- Finaliza seccion de android 10 -->
+
+      <!-- Seccion de la historia de android -->
+      <div class="section">
+          <div class="container">
+              <div class="card" style="padding: 1em 1em;">
+                  <h4>Una pequeña historia</h4>
+                  <h6>Android en sus origenes iniciales</h6>
+                  <div class="row">
+                      <div class="col s12 m6">
+                          <img style="max-width: 100%;" src="../img/android/android.png" alt="Imagen del logo de androi">
+                          <h6 class="left-align" style="font-size: 0.5em; margin: 0;">Imagen de <a target="_blank" href="https://pixabay.com/es/users/ElisaRiva-1348268/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1971128">ElisaRiva</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1971128" target="_blank">Pixabay</a></h6>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                            El origen de Android se remonta a una persona en particular,
+                             se trata de Andy Rubin, un licenciado en ciencias de la computación
+                              que inició trabajando en una empresa que surgió de Apple llamada General 
+                              Magic, trabajando en un proyecto que pretendía ser un sistema operativo para 
+                              teléfonos o PDAs, llamado Magic Cup; sin embargo, dicho proyecto jamás funcionó, 
+                              al grado de que la empresa quebrara y Rubin tuviera que salir de la compañía. Tiempo después decidió fundar su propia compañía llamada Android Inc
+                          </p>
+                          <p>
+                            En el año 2005, el gigante buscador Google compra la compañía, algo que para Andy fue fabuloso,
+                             no solo porque el pasó a formar parte del equipo de Google sino porque le ayudó enormemente en 
+                             alcanzar lo que Android es ahora.
+                          </p>
+                          <p>
+                            No fue hasta el año 2007 cuando Google hizo el anuncio oficial del sistema operativo Android. Desde ese entonces Se podría decir 
+                            que Google hizo uno de sus mejores trabajos de negocio, pues todos sabemos lo que es Android hoy en día.
+                          </p>
+                          <p>
+                            Existen dudas en saber cual fue el primer teléfono con Android, pues hay quien afirma fue un LG y otros 
+                            que dicen que fue HTC el primero en fabricar un teléfono con Android en octubre del 2008.
+                          </p>
+                          <p>
+                            Entre las grandes novedades que introdujo Android se encuentra la ventana de notificación desplegable, 
+                            con la cual se puede tener toda la información a la vista. De igual manera le apostó por los widgets en la pantalla 
+                            de inicio, la integración con el servicio de correo Gmail así como también de su propia tienda de aplicaciones la Android 
+                            Market, hoy en día conocida como Google Play.
+                          </p>
+                          <h6 class="left-align" style="font-size: 0.5em; margin: 0;">La mayor parte del contenido fue obtenido de <a href="https://webadictos.com/breve-historia-de-android/" target="_blank">WebAdictos</a></h6>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+      <!-- Finaliza la seccion de la historia de android -->
+
+      <!-- Seccion de las verciones de android -->
+      <div class="sec">
+          <div class="container">
+              <div class="card" style="padding: 1em 2em;">
+                  <h4>Algunas versiones que más dejaron huella</h4>
+                  <div class="row">
+                      <div class="col s12 m3">
+                          <div class="card" style="padding: 0.4em 0.4em;">
+                              <img style="max-width: 100%;" src="../img/android/donut.jpg" alt="Imagen del logo de android donut 1.6">
+                              <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Imagen obtenida de
+                                <a href="https://i.blogs.es/5c98df/vdonut/1366_2000.jpg">Xataka</a>
+                              </h6>
+                              <h6 class="center-align">Android 1.6</h6>
+                              <p>
+                                Lanzado el 15 de septiembre de 2009. Uno de sus cambios más importantes es la aparición del 
+                                cuadro de búsqueda rápida. Anteriormente, el widget de búsqueda de Google te llevaba al navegador 
+                                web, mientras que ahora la búsqueda se realizaba directamente en la aplicación. Android Market recibía 
+                                también un importante lavado de cara, mientras la oferta de aplicaciones empezaba a despuntar.
+                              </p>
+                              <p>
+                                El sistema se adaptaría ahora al tamaño y resolución de la pantalla, mejoras en la cámara y en la galería, 
+                                que ganaba la posibilidad de seleccionar múltiples fotos para borrarlas a la vez
+                              </p>
+                              <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Contenido obtenido de
+                                <a href="https://www.xatakandroid.com/sistema-operativo/historia-y-evolucion-de-android-como-un-sistema-operativo-para-camaras-digitales-acabo-conquistando-los-moviles">Xataka</a>
+                              </h6>
+                          </div>
+                      </div>
+
+                      <div class="col s12 m3">
+                        <div class="card" style="padding: 0.4em 0.4em;">
+                            <img style="max-width: 100%;" src="../img/android/gingerbread.jpg" alt="Imagen del logo de android donut 2.3">
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Imagen obtenida de
+                              <a href="https://i.blogs.es/3fa5e8/vgingerbread/1366_2000.jpg">Xataka</a>
+                            </h6>
+                            <h6 class="center-align">Android 2.3</h6>
+                            <p>
+                                Llegaba el 6 de diciembre de 2010 acompañado del nuevo Nexus S, esta vez creado por Samsung.
+                                 El sistema estaba ya empezando a madurar así que las novedades eran más de mejorar esto y aquello. Introducía,
+                                 eso sí, la API para juegos, el soporte para NFC y la tradición de los huevos de pascua.
+                            </p>
+                            <p>
+                                Se incluían algunas tecnologías clave hoy en día como la conectividad NFC o el soporte para varias cámaras en 
+                                un dispositivo: sin Gingerbread, no tendríamos selfies en Android. Se incluía también el soporte nativo para más 
+                                sensores como el giroscopio o el barómetro.
+                            </p>
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Contenido obtenido de
+                              <a href="https://www.xatakandroid.com/sistema-operativo/historia-y-evolucion-de-android-como-un-sistema-operativo-para-camaras-digitales-acabo-conquistando-los-moviles">Xataka</a>
+                            </h6>
+                        </div> 
+                    </div>
+
+                    <div class="col s12 m3">
+                        <div class="card" style="padding: 0.4em 0.4em;">
+                            <img style="max-width: 100%;" src="../img/android/jelly-brean.jpg" alt="Imagen del logo de android 4">
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Imagen obtenida de
+                              <a href="https://i.blogs.es/85b28d/vjellybean/1366_2000.jpg">Xataka</a>
+                            </h6>
+                            <h6 class="center-align">Android 4</h6>
+                            <p>
+                                9 de julio de 2012. Es el nacimiento de Google Now y gracias al Project Butter se logra un movimiento más 
+                                suave y sin lag de la interfaz. En esta versión de Android era posible añadir widgets a la pantalla de bloqueo.
+                                Cambiaba también la interfaz de la aplicación de cámara.
+                            </p>
+                            <p>
+                                Con la tercera revisión de Jelly Bean, la versión 4.3 de julio de 2013 recibíamos el soporte nativo para emoji, 
+                                el adelantado-a-su-época soporte para resolución 4K, el soporte para OpenGL ES 3.0 y mejor rendimiento del almacenamiento 
+                                al cargar el comando fstrim cuando el dispositivo no se está usando.
+                            </p>
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Contenido obtenido de
+                              <a href="https://www.xatakandroid.com/sistema-operativo/historia-y-evolucion-de-android-como-un-sistema-operativo-para-camaras-digitales-acabo-conquistando-los-moviles">Xataka</a>
+                            </h6>
+                        </div> 
+                    </div>
+
+                    <div class="col s12 m3">
+                        <div class="card" style="padding: 0.4em 0.4em;">
+                            <img style="max-width: 100%;" src="../img/android/lollipop.jpg" alt="Imagen del logo de android 5">
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Imagen obtenida de
+                              <a href="https://i.blogs.es/6b5151/vlollipop/1366_2000.jpg">Xataka</a>
+                            </h6>
+                            <h6 class="center-align">Android 5</h6>
+                            <p>
+                                Llega Material Design, un soplo de aire fresco que ya se iba haciendo necesario tras seis años improvisando sin unas 
+                                reglas claras. Material Design llegaba en varias aplicaciones de Google. El nuevo look llegaba también a la pantalla de bloqueo,
+                                 donde ahora se podían mostrar las notificaciones a cambio de perder por el camino los widgets.
+                            </p>
+                            <p>
+                                La vista de aplicaciones Recientes muestra ahora también tareas y es posible fijar aplicaciones para que no puedas salir de ellas 
+                                "fácilmente". Estas aplicaciones recientes además persisten después de reiniciar el teléfono.
+                            </p>
+                            <h6 class="left-align" style="font-size: 0.5em; margin: 0em;">Contenido obtenido de
+                              <a href="https://www.xatakandroid.com/sistema-operativo/historia-y-evolucion-de-android-como-un-sistema-operativo-para-camaras-digitales-acabo-conquistando-los-moviles">Xataka</a>
+                            </h6>
+                        </div> 
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <!-- Finaliza la seccion de las verciones de android -->
+      
+    <!-- Final de contenido  -->
+
+    <!-- Footer -->
+    <footer class="page-footer blue darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h4 class="white-text">SysTech</h4>
+              <h5 class="white-text">Un sitio web de técnlogia</h5>
+              <p class="grey-text text-lighten-4">
+                Comprometidos en mantener a nuestros seguidores con lo último en
+                tecnología y sus novedades.
+              </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">
+                Artículos Recientes
+              </h5>
+              <ul>
+                <li>
+                  <a class="grey-text text-lighten-3" href="newmovil.html"
+                    >Lo nuevo en móviles</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    href="tecnologiadelfuturo.html"
+                    >Tecnologias del futuro</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    href="tecnologiaenlamedicina.html"
+                    >Tecnologia en la medicina</a
+                  >
+                </li>
+                <li><a class="grey-text text-lighten-3" href="ios.html">IOS</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Inicio de redes sociales -->
+          <div class="container center social-footer">
+            <a class="waves-effect" href="https://facebook.com/" target="_blank">
+              <i class="fab fa-facebook-f medium white-text"></i>
+            </a>
+            <a class="waves-effect" href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter medium white-text"></i
+            ></a>
+            <a
+              class="waves-effect"
+              href="https://es.linkedin.com/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in medium white-text"></i>
+            </a>
+            <a
+              class="waves-effect"
+              href="https://www.skype.com/es/"
+              target="_blank"
+            >
+              <i class="fab fa-skype medium white-text"></i>
+            </a>
+          </div>
+          <!-- Fin de redes sociales -->
+        </div>
+  
+        <div class="footer-copyright grey darken-3">
+          <div class="container center">
+            SysTech - Todos los derechos reservados 2020 &copy;
+          </div>
+        </div>
+      </footer>
+      <!-- Fin del Footer -->
+  
+      <!-- SCRIPTS NO TOCAR  -->
+      <!-- Llamar al JQUERY de Materialize  -->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+      <!-- Llamar al cdn de JS de materialize  -->
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+      <!-- Llamar al init de JS de materialize  -->
+      <script src="../js/init.js"></script>
+    </body>
+  </html>
