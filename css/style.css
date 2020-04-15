@@ -37,6 +37,7 @@ p {
   font-size: 0.6em;
   margin: 0em;
   padding: 0em;
+  color: darkgrey;
 }
 
 .sugerimos .card {
@@ -45,4 +46,13 @@ p {
 
 .sugerimos img {
   height: 10em;
+}
+.creditos-img{
+  font-size: 1em;
+  margin: 0em;
+  padding: 0em;
+  color: darkgrey;
+}
+.img-por{
+  border-radius: 1em;
 }
