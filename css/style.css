@@ -55,7 +55,7 @@ p {
 }
 .img-por{
   border-radius: 1em;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 @media (min-width: 768px) {
